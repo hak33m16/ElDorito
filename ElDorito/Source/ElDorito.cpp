@@ -231,6 +231,7 @@ void ElDorito::Initialize()
 	else
 	{
 		Web::Ui::ScreenLayer::Init();
+		// Perhaps after UI init is best place to put pipe?
 		Web::Ui::MpEventDispatcher::Init();
 		Web::Ui::WebChat::Init();
 		Web::Ui::WebScoreboard::Init();
@@ -270,6 +271,10 @@ void ElDorito::Initialize()
 		std::string msg("Failed to load '" + mapsFolder + "string_ids.dat'!");
 		MessageBox(NULL, msg.c_str(), "", MB_OK);
 	}
+
+	// Initialization steps complete, open shared pipe here?
+	Modules::CommandMap::Instance().ExecuteCommand("graphics.saturation 2");
+
 }
 
 void ElDorito::Tick()
