@@ -32,6 +32,7 @@
 #include "Patches/Camera.hpp"
 #include "Discord/DiscordRPC.h"
 #include "ThirdParty/SOP.hpp"
+#include "CommandPipe.hpp"
 
 #include "Blam/Cache/StringIdCache.hpp"
 
@@ -273,7 +274,9 @@ void ElDorito::Initialize()
 	}
 
 	// Initialization steps complete, open shared pipe here?
-	Modules::CommandMap::Instance().ExecuteCommand("graphics.saturation 2");
+	//Modules::CommandMap::Instance().ExecuteCommand("graphics.saturation 2");
+
+	Command::Pipe::CommandPipe::Instance().run();
 
 }
 

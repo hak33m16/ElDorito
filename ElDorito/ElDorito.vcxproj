@@ -62,6 +62,7 @@
     <ClCompile Include="Source\ChatCommands\ChatCommand.cpp" />
     <ClCompile Include="Source\ChatCommands\ChatCommandMap.cpp" />
     <ClCompile Include="Source\CommandMap.cpp" />
+    <ClCompile Include="Source\CommandPipe.cpp" />
     <ClCompile Include="Source\Console.cpp" />
     <ClCompile Include="Source\Definitions\EnumDefinition.cpp" />
     <ClCompile Include="Source\Definitions\FieldDefinition.cpp" />
@@ -258,6 +259,7 @@
     <ClInclude Include="Source\ChatCommands\ChatCommand.hpp" />
     <ClInclude Include="Source\ChatCommands\ChatCommandMap.hpp" />
     <ClInclude Include="Source\CommandMap.hpp" />
+    <ClInclude Include="Source\CommandPipe.hpp" />
     <ClInclude Include="Source\Console.hpp" />
     <ClInclude Include="Source\Definitions\EnumDefinition.hpp" />
     <ClInclude Include="Source\Definitions\FieldDefinition.hpp" />

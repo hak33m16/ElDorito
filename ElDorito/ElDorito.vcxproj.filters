@@ -548,6 +548,7 @@
     <ClCompile Include="Source\Patches\DamageSystem.cpp" />
     <ClCompile Include="Source\Blam\Memory\DatumHandle.cpp" />
     <ClCompile Include="Source\Patches\PlayerScale.cpp" />
+    <ClCompile Include="Source\CommandPipe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Blam\BitStream.hpp">
@@ -1257,6 +1258,7 @@
     <ClInclude Include="Source\Blam\Memory\DatumHandle.hpp" />
     <ClInclude Include="Source\Blam\Tags\Globals\ForgeGlobalsDefinition.hpp" />
     <ClInclude Include="Source\Patches\PlayerScale.hpp" />
+    <ClInclude Include="Source\CommandPipe.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Source\ElDorito.rc" />
